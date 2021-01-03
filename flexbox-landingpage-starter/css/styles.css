@@ -1,0 +1,244 @@
+html, body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 1rem;
+    color: #303137;
+    margin: 0;
+}
+.navbar, .container{
+    
+    
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+   
+
+}
+.navbar{
+    display: flex;
+    padding: 10px;
+     justify-content: space-between;
+}
+.brand, .navlink{
+    text-transform: uppercase;
+    color: #303137;
+}
+.brand{
+    font-size: 25px;
+}
+.code{
+    color: #66B6D3;
+}
+.topnav{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.topnav .navlink, a {
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.dropdownlink{
+    display: none;
+
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.header-wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 6rem 0;
+}
+.head-img{
+    border-radius: 50%;
+    max-width: 200px;
+    width: 100%;
+}
+.services, .cont-container{
+    background-color: #F1F3Fa;
+    padding: 4rem 1rem;
+    
+}
+
+.media-object{
+    display: flex;
+    align-items: center;
+    padding: 2rem 1rem;
+    
+}
+
+.icon-graph{
+    width: 180px;
+}
+.blurb-wrapper-right, .blurb-wrapper-left{
+    flex: 1;
+    
+}
+.icon-left, .icon-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.icon-left, .blurb-wrapper-left{
+    order: 1;
+
+}
+.icon-right, .blurb-wrapper-right{
+    order: 2;
+
+}
+.blurb-header{
+    font-size: 24px;
+    margin-top: 0;
+}
+.blurb-info{
+    color: #646B90;
+    font-size: 018px;
+}
+.qoute-btn-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.qoute-btn{
+    color: #FFFFFF;
+    background-color: #66B6D3;
+    font-size: 18px;
+    border: none;
+    padding: .8rem 4rem;
+    box-shadow: 0 5px 20px rgba(0,0,0,.3);
+    border-radius: 2%;
+}
+h1.header-text{
+    text-align: center;
+    padding: 6rem 0 4rem;
+}
+.port-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+   
+}
+.port-box{
+     width: 250px;
+    height: 250px;
+    background-color: #F1F3Fa;
+    transition: .2s ease-in-out;
+}
+.port-box:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+form label{
+    font-size: 14px;
+}
+.port-objects{
+    max-width: 250px;
+    margin: 1rem 0;
+}
+.form-group{
+    margin-bottom: .75rem;
+    
+}
+
+.form-control{
+    max-width: 600px;
+    width: 100%;
+    background-color: white;
+    color: #292b2c;
+    border-radius: 2px;
+    border: 1px solid #ced4da;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-clip: padding-box;
+    display: block;
+}
+
+.submit-btn-wrapper{
+    margin-top: 4rem;
+    text-align: center;
+    max-width: 600px;
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    ul.topnav li a.navlink {
+            display: none;
+    }
+
+    ul.topnav li.dropdownlink {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+
+    ul.topnav.responsive li.dropdownlink {
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        text-decoration: none;
+    }
+
+    ul.topnav.responsive {
+        flex-direction: column;
+        text-align: right;
+    }
+
+    ul.topnav.responsive li {
+        position: relative;
+        top: 30px;
+        right: 30px;
+    }
+
+    ul.topnav.responsive li a.navlink {
+        display: block;
+        line-height: 2;
+        text-decoration: none;
+    }
+    
+    .media-object{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .icon-right, .icon-left{
+        order: 1;
+        
+    }
+    .blurb-wrapper-left, .blurb-wrapper-right{
+        order: 2;
+        padding-top: 2rem;
+    }
+    .port-wrapper{
+        text-align: center;
+    }
+    
+    .form-group{
+        
+        display: flex;
+    }
+    
+}
+
+@media(max-width:800px){
+    .port-wrapper{
+        justify-content: center;
+    }
+}
+

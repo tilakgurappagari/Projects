@@ -1,0 +1,12 @@
+.ListWrapper{
+    list-style: none;
+}
+
+.OrderWrapper {
+
+        background-color: black;
+        color : white;
+        margin: 5px;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}

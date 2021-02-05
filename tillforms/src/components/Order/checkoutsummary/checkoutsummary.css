@@ -1,0 +1,21 @@
+.CheckoutSummary{
+
+    text-align : center;
+    width: 80%;
+    margin: auto;
+
+}
+.BurgerWrapper{
+    width : 100% ;
+     margin : 'auto';
+}
+
+@media(min-width:800px){
+
+    .CheckoutSummary{
+        width: 500px;
+    }
+    .BurgerWrapper{
+        width: 500px;
+    }
+}
